@@ -14,6 +14,7 @@ res.json({ status: "ok", game: "GRAM COOP HARVEST" });
 });
 
 app.post("/telegram-webhook", async (req, res) => {
+console.log("Telegram webhook received");
 res.sendStatus(200);
 
 const message = req.body?.message;
