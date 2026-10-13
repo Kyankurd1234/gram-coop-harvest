@@ -31,7 +31,7 @@ text: "🌾 Welcome to GRAM COOP HARVEST!\n\nYour farm adventure starts here."
 })
 });
 } catch (error) {
-console.error("Telegram message failed");
+console.error("Telegram message failed:", error.message);
 }
 }
 });
